@@ -7,12 +7,11 @@ print("""
         - Cebola
         - Laranja
         - Melancia
-        - 
+        - Feijao
         - Kiwi
       Para acessar um produto, digite a letra inicial do produto.
 """)
 def acessar_produto(): #Função para acessar o produto 
-    print("Alface 1,00 cada unidade")
     produto = input("Digite a letra inicial do produto: ") #Pode ser maiuscula ou minuscula
     if produto == "T" or produto == "t":
         print("Tomates: 1,50 cada unidade")
@@ -21,17 +20,17 @@ def acessar_produto(): #Função para acessar o produto
     elif produto == "B" or produto == "b":
         print("Batata 1,20 cada unidade")
     elif produto == "C" or produto == "c":
-        print("Cebola  cada unidade")
+        print("Cebola 1,50 cada unidade")
     elif produto == "L" or produto == "l":
         print("Laranja 2,00 cada unidade")
     elif produto == "M" or produto == "m":
         print("Melancia 25,00 cada unidade")
     elif produto == "F" or produto == "f":
         print("Feijao 4,00 cada unidade")
-    elif produto == "K" or produto == "":
+    elif produto == "K" or produto == "k":
         print("Kiwi 5,00 cada unidade")
     else:
         print("Produto não encontrado")
 
 acessar_produto()
-print("Muito obrigado pela visita em nossa ")
+print("Muito obrigado pela visita em nossa Quitanda!")
